@@ -1,1 +1,40 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.middle {
+    border-collapse: collapse;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-spacing: 1px;
+    padding: 1px;
+}
+
+.middle td, .middle th {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.img-cell img {
+    max-width: 100%;
+}
+
