@@ -1,14 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
+/* General styling for tables */
 .middle {
     border-collapse: collapse;
-    margin: 0 auto;
-    border: 1px solid black;
-    border-spacing: 1px;
-    padding: 1px;
+    width: 100%;
 }
 
 .middle td, .middle th {
@@ -16,6 +9,18 @@ body {
     padding: 1px;
 }
 
+/* Specific styling for the green and blue rows */
+.green {
+    background-color: green;
+    color: white; /* Optional, for better contrast */
+}
+
+.blue {
+    background-color: blue;
+    color: white; /* Optional, for better contrast */
+}
+
+/* Center and right alignment classes */
 .center {
     text-align: center;
 }
@@ -23,18 +28,3 @@ body {
 .right {
     text-align: right;
 }
-
-.green {
-    background-color: green;
-    color: white;
-}
-
-.blue {
-    background-color: blue;
-    color: white;
-}
-
-.img-cell img {
-    max-width: 100%;
-}
-
